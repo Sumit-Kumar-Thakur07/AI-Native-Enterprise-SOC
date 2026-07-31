@@ -1,2 +1,345 @@
 # AI-Native-Enterprise-SOC
 An AI-powered Enterprise Security Operations Center (SOC) platform that simulates real-world L1/L2 security operations, including attack simulation, SIEM monitoring, AI-assisted investigation, threat hunting, incident response, and security automation.
+# 🛡️ AI-Native Enterprise SOC Platform
+
+> **An AI-Powered Enterprise Security Operations Center (SOC) Platform designed to simulate real-world L1/L2 Security Operations including attack simulation, centralized log management, SIEM monitoring, AI-assisted investigation, threat hunting, incident response, and security automation.**
+
+---
+
+## 📌 Project Overview
+
+This project is a complete **Enterprise Security Operations Center (SOC)** built in a VMware lab environment to replicate how modern Blue Teams detect, investigate, and respond to cyber threats.
+
+The platform integrates multiple enterprise security technologies, AI-assisted investigation, threat intelligence, detection engineering, and incident response workflows into a single project.
+
+The objective is to demonstrate practical skills required for **SOC Analyst L1/L2** roles while following real-world enterprise SOC operations.
+
+---
+
+# 🎯 Objectives
+
+- Build an Enterprise SOC Lab
+- Simulate real-world cyber attacks
+- Centralize security logs
+- Detect malicious activities using SIEM
+- Investigate incidents using AI
+- Perform threat hunting
+- Enrich IOCs with Threat Intelligence
+- Automate security workflows
+- Generate professional incident reports
+
+---
+
+# 🚀 Key Features
+
+- Enterprise VMware Lab
+- Windows Server 2022
+- Windows 10 Endpoint
+- Ubuntu Server
+- Kali Linux Attack Machine
+- pfSense Firewall
+- Active Directory
+- OpenSearch SIEM
+- Wazuh
+- Splunk
+- Sysmon
+- Zeek
+- Suricata
+- AI SOC Copilot
+- PostgreSQL Database
+- Detection Engineering
+- Threat Hunting
+- Incident Response
+- Automated Reporting
+- Security Dashboards
+
+---
+
+# 🏗 Enterprise Architecture
+
+> *(Architecture Diagram will be added here.)*
+
+---
+
+# 🌐 Enterprise Lab Topology
+
+> *(Network Topology Diagram will be added here.)*
+
+---
+
+# 🛠 Technology Stack
+
+## Infrastructure
+
+- VMware Workstation
+- Windows Server 2022
+- Windows 10
+- Ubuntu Server
+- Kali Linux
+- pfSense
+
+### Networking
+
+- TCP/IP
+- DNS
+- DHCP
+- HTTP/HTTPS
+- SMB
+- SSH
+- RDP
+- Firewall Rules
+
+### Security Platform
+
+- OpenSearch
+- Wazuh
+- Splunk
+- Sysmon
+- Zeek
+- Suricata
+
+### Detection Engineering
+
+- Sigma Rules
+- YARA Rules
+- Custom Detection Rules
+
+### Threat Intelligence
+
+- VirusTotal
+- AbuseIPDB
+- AlienVault OTX
+
+### Programming
+
+- Python
+- PowerShell
+- Bash
+
+### Database
+
+- PostgreSQL
+
+### AI
+
+- AI SOC Copilot
+- MITRE ATT&CK Mapping
+- IOC Extraction
+- Report Generation
+- Risk Scoring
+- AI Investigation
+- Query Generation
+
+---
+
+# ⚔️ Attack Simulation
+
+The following enterprise attack scenarios will be simulated in the lab.
+
+- Phishing
+- Brute Force
+- Password Spraying
+- Account Compromise
+- Malware Execution
+- Ransomware Simulation
+- Suspicious PowerShell
+- Network Scanning
+- Privilege Escalation
+- Lateral Movement
+- Command & Control
+- Data Exfiltration
+- Persistence
+- Defense Evasion
+
+---
+
+# 🛡 Detection Engineering
+
+This project includes:
+
+- Sigma Rules
+- YARA Rules
+- Custom Detection Rules
+- Correlation Rules
+- IOC Detection
+- Alert Correlation
+- MITRE ATT&CK Mapping
+
+---
+
+# 🔎 Threat Hunting
+
+Threat hunting activities include:
+
+- IOC Hunting
+- PowerShell Hunting
+- Authentication Hunting
+- Persistence Hunting
+- Malware Hunting
+- Network Hunting
+- Lateral Movement Hunting
+
+---
+
+# 🚨 Incident Response Workflow
+
+```text
+Attack
+
+↓
+
+Log Collection
+
+↓
+
+SIEM Detection
+
+↓
+
+Alert Validation
+
+↓
+
+AI Investigation
+
+↓
+
+Threat Intelligence
+
+↓
+
+IOC Extraction
+
+↓
+
+MITRE Mapping
+
+↓
+
+Risk Scoring
+
+↓
+
+Incident Response
+
+↓
+
+Executive Report
+```
+
+---
+
+# 🤖 AI SOC Copilot
+
+The AI module assists analysts with:
+
+- Alert Summarization
+- IOC Extraction
+- MITRE ATT&CK Mapping
+- Threat Intelligence Enrichment
+- Incident Timeline Generation
+- Executive Report Generation
+- Sigma Rule Suggestions
+- SIEM Query Generation
+- Investigation Assistance
+
+---
+
+# 📊 Dashboards
+
+- SOC Dashboard
+- Analyst Dashboard
+- Executive Dashboard
+- Threat Intelligence Dashboard
+- Incident Dashboard
+
+---
+
+# 📂 Repository Structure
+
+```text
+AI-Native-Enterprise-SOC/
+
+├── docs/
+├── infrastructure/
+├── security-platform/
+├── soc-operations/
+├── intelligence-automation/
+├── assets/
+└── demo/
+```
+
+---
+
+# 📅 Development Roadmap
+
+- ✅ Phase 1 – Repository Setup
+- ⏳ Phase 2 – Infrastructure
+- ⏳ Phase 3 – Logging
+- ⏳ Phase 4 – SIEM
+- ⏳ Phase 5 – Detection Engineering
+- ⏳ Phase 6 – Attack Simulation
+- ⏳ Phase 7 – Threat Hunting
+- ⏳ Phase 8 – Incident Response
+- ⏳ Phase 9 – AI SOC Copilot
+- ⏳ Phase 10 – Security Automation
+- ⏳ Phase 11 – Dashboards
+- ⏳ Phase 12 – Documentation
+
+---
+
+# 🎓 Skills Demonstrated
+
+- Networking
+- Windows Administration
+- Linux Administration
+- Active Directory
+- VMware
+- SIEM
+- Detection Engineering
+- Threat Hunting
+- Incident Response
+- Python
+- SQL
+- AI Integration
+- Threat Intelligence
+- Security Automation
+- Technical Documentation
+- Git & GitHub
+
+---
+
+# 📸 Screenshots
+
+*Coming Soon*
+
+---
+
+# 🎥 Demo
+
+*Coming Soon*
+
+---
+
+# 🚀 Future Enhancements
+
+- SOAR Integration
+- Cloud SIEM Support
+- Advanced AI Agents
+- Multi-Tenant SOC
+- EDR Integration
+- Threat Intelligence Platform Integration
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# ⭐ Acknowledgements
+
+This project is built for educational purposes to demonstrate practical enterprise SOC skills in a controlled lab environment.
+
+Unauthorized use of these techniques against systems without permission is strictly prohibited.
