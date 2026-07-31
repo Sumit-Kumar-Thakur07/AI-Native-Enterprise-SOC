@@ -94,8 +94,8 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
                                        │
                              Log Collection Layer
                                        │
-                    Windows Logs • Linux Logs • Sysmon
-                    Firewall Logs • Zeek • Suricata
+                     Windows Logs • Linux Logs • Sysmon
+                     Firewall Logs • Zeek • Suricata
                                        │
                                        ▼
                               OpenSearch SIEM
@@ -113,16 +113,16 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
                                        │
                                        ▼
                              Threat Intelligence
-                VirusTotal • AbuseIPDB • AlienVault OTX
+                     VirusTotal • AbuseIPDB • AlienVault OTX
                                        │
                                        ▼
                                AI SOC Copilot
-         IOC Extraction • MITRE Mapping • Risk Scoring
-      Timeline • Report Generation • Query Generation
+                IOC Extraction • MITRE Mapping • Risk Scoring
+                Timeline • Report Generation • Query Generation
                                        │
                                        ▼
                            Incident Response Layer
-           Triage • Investigation • Containment • Recovery
+               Triage • Investigation • Containment • Recovery
                                        │
                                        ▼
                               PostgreSQL Database
@@ -131,173 +131,6 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
                             Dashboards & Reports
 ---
 
-# 🌐 Enterprise Lab Topology
-
-> *(Network Topology Diagram will be added here.)*
-
----
-
-# 🛠 Technology Stack
-
-## Infrastructure
-
-- VMware Workstation
-- Windows Server 2022
-- Windows 10
-- Ubuntu Server
-- Kali Linux
-- pfSense
-
-### Networking
-
-- TCP/IP
-- DNS
-- DHCP
-- HTTP/HTTPS
-- SMB
-- SSH
-- RDP
-- Firewall Rules
-
-### Security Platform
-
-- OpenSearch
-- Wazuh
-- Splunk
-- Sysmon
-- Zeek
-- Suricata
-
-### Detection Engineering
-
-- Sigma Rules
-- YARA Rules
-- Custom Detection Rules
-
-### Threat Intelligence
-
-- VirusTotal
-- AbuseIPDB
-- AlienVault OTX
-
-### Programming
-
-- Python
-- PowerShell
-- Bash
-
-### Database
-
-- PostgreSQL
-
-### AI
-
-- AI SOC Copilot
-- MITRE ATT&CK Mapping
-- IOC Extraction
-- Report Generation
-- Risk Scoring
-- AI Investigation
-- Query Generation
-
----
-
-# ⚔️ Attack Simulation
-
-The following enterprise attack scenarios will be simulated in the lab.
-
-- Phishing
-- Brute Force
-- Password Spraying
-- Account Compromise
-- Malware Execution
-- Ransomware Simulation
-- Suspicious PowerShell
-- Network Scanning
-- Privilege Escalation
-- Lateral Movement
-- Command & Control
-- Data Exfiltration
-- Persistence
-- Defense Evasion
-
----
-
-# 🛡 Detection Engineering
-
-This project includes:
-
-- Sigma Rules
-- YARA Rules
-- Custom Detection Rules
-- Correlation Rules
-- IOC Detection
-- Alert Correlation
-- MITRE ATT&CK Mapping
-
----
-
-# 🔎 Threat Hunting
-
-Threat hunting activities include:
-
-- IOC Hunting
-- PowerShell Hunting
-- Authentication Hunting
-- Persistence Hunting
-- Malware Hunting
-- Network Hunting
-- Lateral Movement Hunting
-
----
-
-# 🚨 Incident Response Workflow
-
-```text
-Attack
-
-↓
-
-Log Collection
-
-↓
-
-SIEM Detection
-
-↓
-
-Alert Validation
-
-↓
-
-AI Investigation
-
-↓
-
-Threat Intelligence
-
-↓
-
-IOC Extraction
-
-↓
-
-MITRE Mapping
-
-↓
-
-Risk Scoring
-
-↓
-
-Incident Response
-
-↓
-
-Executive Report
-```
-
----
 
 # 🤖 AI SOC Copilot
 
