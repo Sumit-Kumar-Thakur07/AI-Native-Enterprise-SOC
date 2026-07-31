@@ -67,19 +67,20 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
 - Security Dashboards
 
 ---
-
-# 🏗 Enterprise Architecture
+# 🏗️ Enterprise Architecture
 
 The **AI-Native Enterprise SOC Platform** is designed to simulate a modern **Enterprise Security Operations Center (SOC)** that mirrors real-world **SOC Analyst L1/L2** operations.
+
 The architecture integrates enterprise infrastructure, centralized log collection, SIEM, detection engineering, threat intelligence, AI-assisted investigation, and incident response into a single platform. It enables end-to-end security monitoring—from attack simulation to executive reporting—while demonstrating the practical workflows used by Blue Team professionals.
+
 ---
+
 ## Enterprise Architecture
+
 ```text
                                    Internet
                                        │
-                                       │
                               Attacker (Kali Linux)
-                                       │
                                        │
                                  pfSense Firewall
                                        │
@@ -88,7 +89,6 @@ The architecture integrates enterprise infrastructure, centralized log collectio
       Windows Server 2022                               Ubuntu Server
    (AD • DNS • DHCP • GPO)                          (Syslog • Auditd)
               │                                                 │
-              │                                                 │
       Windows 10 Endpoint                              Linux Endpoint
       Sysmon • Defender                           Auditd • Syslog
               │                                                 │
@@ -96,8 +96,8 @@ The architecture integrates enterprise infrastructure, centralized log collectio
                                        │
                              Log Collection Layer
                                        │
-                      Windows Logs • Linux Logs • Sysmon
-                       Firewall Logs • Zeek • Suricata
+                    Windows Logs • Linux Logs • Sysmon
+                    Firewall Logs • Zeek • Suricata
                                        │
                                        ▼
                               OpenSearch SIEM
@@ -115,22 +115,22 @@ The architecture integrates enterprise infrastructure, centralized log collectio
                                        │
                                        ▼
                              Threat Intelligence
-                   VirusTotal • AbuseIPDB • AlienVault OTX
+                VirusTotal • AbuseIPDB • AlienVault OTX
                                        │
                                        ▼
                                AI SOC Copilot
-              IOC Extraction • MITRE Mapping • Risk Scoring
-              Timeline • Report Generation • Query Generation
+         IOC Extraction • MITRE Mapping • Risk Scoring
+        imeline • Report Generation • Query Generation
                                        │
                                        ▼
                            Incident Response Layer
-              Triage • Investigation • Containment • Recovery
+           Triage • Investigation • Containment • Recovery
                                        │
                                        ▼
-                               PostgreSQL Database
+                              PostgreSQL Database
                                        │
                                        ▼
-                              Dashboards & Reports
+                            Dashboards & Reports
 ```
 ---
 
