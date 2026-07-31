@@ -73,8 +73,62 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
 
 # 🏗 Enterprise Architecture
 
-> *(Architecture Diagram will be added here.)*
+## Enterprise Architecture
 
+```text
+                                   Internet
+                                       │
+                              Attacker (Kali Linux)
+                                       │
+                                 pfSense Firewall
+                                       │
+              ┌────────────────────────┴────────────────────────┐
+              │                                                 │
+      Windows Server 2022                               Ubuntu Server
+   (AD • DNS • DHCP • GPO)                          (Syslog • Auditd)
+              │                                                 │
+      Windows 10 Endpoint                              Linux Endpoint
+      Sysmon • Defender                           Auditd • Syslog
+              │                                                 │
+              └────────────────────────┬────────────────────────┘
+                                       │
+                             Log Collection Layer
+                                       │
+                    Windows Logs • Linux Logs • Sysmon
+                    Firewall Logs • Zeek • Suricata
+                                       │
+                                       ▼
+                              OpenSearch SIEM
+                            (Primary Detection Engine)
+                                       │
+                ┌──────────────────────┼──────────────────────┐
+                │                      │                      │
+             Wazuh                Splunk Lab            Dashboards
+         Endpoint Security      Detection Testing     SOC Monitoring
+                │                      │                      │
+                └──────────────────────┼──────────────────────┘
+                                       ▼
+                          Detection Engineering Layer
+                        Sigma • YARA • Correlation Rules
+                                       │
+                                       ▼
+                             Threat Intelligence
+                VirusTotal • AbuseIPDB • AlienVault OTX
+                                       │
+                                       ▼
+                               AI SOC Copilot
+         IOC Extraction • MITRE Mapping • Risk Scoring
+      Timeline • Report Generation • Query Generation
+                                       │
+                                       ▼
+                           Incident Response Layer
+           Triage • Investigation • Containment • Recovery
+                                       │
+                                       ▼
+                              PostgreSQL Database
+                                       │
+                                       ▼
+                            Dashboards & Reports
 ---
 
 # 🌐 Enterprise Lab Topology
