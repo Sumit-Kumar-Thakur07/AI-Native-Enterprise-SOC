@@ -70,7 +70,9 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
 
 # 🏗 Enterprise Architecture
 
->                                   Internet
+>
+```text
+                                   Internet
                                        │
                                        │
                               Attacker (Kali Linux)
@@ -126,7 +128,7 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
                                        │
                                        ▼
                               Dashboards & Reports
-
+```
 ---
 
 # 🌐 Enterprise Lab Topology
