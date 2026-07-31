@@ -4,6 +4,22 @@ An AI-powered Enterprise Security Operations Center (SOC) platform that simulate
 
 > **An AI-Powered Enterprise Security Operations Center (SOC) Platform designed to simulate real-world L1/L2 Security Operations including attack simulation, centralized log management, SIEM monitoring, AI-assisted investigation, threat hunting, incident response, and security automation.**
 
+> An AI-powered Enterprise Security Operations Center...
+
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-SIEM-005EB8)
+![Wazuh](https://img.shields.io/badge/Wazuh-XDR-00A3E0)
+![Splunk](https://img.shields.io/badge/Splunk-Enterprise-000000)
+![Windows Server](https://img.shields.io/badge/Windows_Server-2022-0078D4)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420)
+![VMware](https://img.shields.io/badge/VMware-Workstation-607078)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+## 📌 Project Overview
 ---
 
 ## 📌 Project Overview
