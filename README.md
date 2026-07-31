@@ -133,7 +133,57 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
 
 # 🌐 Enterprise Lab Topology
 
-> *(Network Topology Diagram will be added here.)*
+The lab environment is built on **VMware Workstation** to simulate a realistic enterprise network. It consists of Windows and Linux systems, an Active Directory domain, a firewall, attacker infrastructure, security monitoring components, and a centralized SIEM platform. This topology enables end-to-end attack simulation, log collection, detection engineering, threat hunting, and incident response.
+
+---
+
+## Enterprise Lab Topology
+
+```text
+                                    Internet
+                                        │
+                                 VMware NAT / Bridged
+                                        │
+                                   pfSense Firewall
+                              WAN (NAT) │ LAN (10.10.10.0/24)
+                                        │
+          ┌─────────────────────────────┼─────────────────────────────┐
+          │                             │                             │
+          │                             │                             │
+┌──────────────────┐         ┌──────────────────┐          ┌──────────────────┐
+│ Windows Server   │         │ Windows 10       │          │ Ubuntu Server    │
+│ 2022             │         │ Endpoint         │          │                  │
+│ AD / DNS / DHCP  │         │ Sysmon           │          │ Syslog / Auditd  │
+│ GPO              │         │ Defender         │          │                  │
+└──────────────────┘         └──────────────────┘          └──────────────────┘
+          │                             │                             │
+          └──────────────┬──────────────┴──────────────┬──────────────┘
+                         │                             │
+                  ┌────────────────────────────────────────┐
+                  │        OpenSearch SIEM Server          │
+                  │      Log Collection & Correlation      │
+                  └────────────────────────────────────────┘
+                         │               │
+                 ┌──────────────┐  ┌──────────────┐
+                 │    Wazuh     │  │    Splunk    │
+                 │ Endpoint Sec │  │ Detection Lab│
+                 └──────────────┘  └──────────────┘
+                         │
+                  ┌──────────────────┐
+                  │ AI SOC Copilot   │
+                  │ Python + AI      │
+                  └──────────────────┘
+                         │
+                  ┌──────────────────┐
+                  │ PostgreSQL       │
+                  │ Incident DB      │
+                  └──────────────────┘
+
+          ┌──────────────────────────────────────────────────────────┐
+          │                   Kali Linux Attacker                    │
+          │ Nmap • Hydra • Metasploit • Evil-WinRM • NetExec • etc. │
+          └──────────────────────────────────────────────────────────┘
+```
 
 ---
 
