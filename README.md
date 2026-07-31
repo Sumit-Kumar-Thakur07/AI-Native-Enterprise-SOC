@@ -494,24 +494,14 @@ AI-Native-Enterprise-SOC/
 *Coming Soon*
 
 ---
-
-# 🚀 Future Enhancements
-
-- SOAR Integration
-- Cloud SIEM Support
-- Advanced AI Agents
-- Multi-Tenant SOC
-- EDR Integration
-- Threat Intelligence Platform Integration
-
----
-
 # 📜 License
 
 This project is licensed under the MIT License.
 
 ---
+# 👨‍💻 Author
 
+**SUMIT KUMAR**
 # ⭐ Acknowledgements
 
 This project is built for educational purposes to demonstrate practical enterprise SOC skills in a controlled lab environment.
