@@ -70,7 +70,11 @@ The objective is to demonstrate practical skills required for **SOC Analyst L1/L
 
 # 🏗 Enterprise Architecture
 
->
+The **AI-Native Enterprise SOC Platform** is designed to simulate a modern **Enterprise Security Operations Center (SOC)** that mirrors real-world **SOC Analyst L1/L2** operations.
+
+The architecture integrates enterprise infrastructure, centralized log collection, SIEM, detection engineering, threat intelligence, AI-assisted investigation, and incident response into a single platform. It enables end-to-end security monitoring—from attack simulation to executive reporting—while demonstrating the practical workflows used by Blue Team professionals.
+---
+## Enterprise Architecture
 ```text
                                    Internet
                                        │
