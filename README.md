@@ -382,14 +382,65 @@ The AI module assists analysts with:
 
 ```text
 AI-Native-Enterprise-SOC/
-
+│
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── CODE_OF_CONDUCT.md
+├── .gitignore
+├── requirements.txt
+│
 ├── docs/
+│   ├── architecture/
+│   ├── setup-guides/
+│   ├── playbooks/
+│   ├── runbooks/
+│   ├── incident-reports/
+│   ├── troubleshooting/
+│   └── screenshots/
+│
 ├── infrastructure/
+│   ├── vmware/
+│   ├── networking/
+│   ├── windows-server/
+│   ├── windows10/
+│   ├── ubuntu/
+│   ├── kali/
+│   ├── pfsense/
+│   └── active-directory/
+│
 ├── security-platform/
+│   ├── logging/
+│   ├── siem/
+│   ├── detections/
+│   └── threat-intelligence/
+│
 ├── soc-operations/
+│   ├── attack-simulation/
+│   ├── threat-hunting/
+│   ├── incident-response/
+│   └── dashboards/
+│
 ├── intelligence-automation/
+│   ├── ai/
+│   ├── automation/
+│   ├── database/
+│   ├── api/
+│   └── scripts/
+│
 ├── assets/
+│   ├── banner/
+│   ├── architecture/
+│   ├── screenshots/
+│   ├── icons/
+│   └── logos/
+│
 └── demo/
+    ├── videos/
+    ├── gifs/
+    └── presentations/
 ```
 
 ---
